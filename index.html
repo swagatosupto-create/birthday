@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Madam Ji ❤️</title>
+
+<style>
+
+/* =========================
+   BASIC
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    font-family:
+        "Segoe UI",
+        "Noto Sans Bengali",
+        sans-serif;
+
+    color: white;
+
+    background:
+        radial-gradient(
+            circle at top,
+            #76145d 0%,
+            #350c36 40%,
+            #10051b 100%
+        );
+
+    overflow-x: hidden;
+}
+
+
+/* =========================
+   INTRO SCREEN
+========================= */
+
+#intro {
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 9999;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 25px;
+
+    background:
+        radial-gradient(
+            circle,
+            #57134c,
+            #16071f 70%
+        );
+
+    transition: 1.3s ease;
+}
+
+
+.intro-gift {
+
+    font-size: 80px;
+
+    animation:
+        giftFloat 1.5s infinite alternate,
+        giftGlow 2s infinite alternate;
+}
+
+
+@keyframes giftFloat {
+
+    from {
+        transform: translateY(0) rotate(-3deg);
+    }
+
+    to {
+        transform: translateY(-15px) rotate(3deg);
+    }
+}
+
+
+@keyframes giftGlow {
+
+    from {
+        filter:
+            drop-shadow(
+                0 0 5px #ff5fae
+            );
+    }
+
+    to {
+        filter:
+            drop-shadow(
+                0 0 30px #ff5fae
+            );
+    }
+}
+
+
+#intro h1 {
+
+    font-size: 30px;
+
+    margin: 20px 0 10px;
+
+    color: #ffd7ee;
+}
+
+
+#intro p {
+
+    color: #ffc0df;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    max-width: 330px;
+}
+
+
+.start-btn {
+
+    margin-top: 25px;
+
+    padding: 15px 28px;
+
+    border: none;
+
+    border-radius: 40px;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ff4f9a,
+            #ff1744
+        );
+
+    box-shadow:
+        0 10px 35px
+        rgba(255, 45, 140, .4);
+
+    transition: .3s;
+}
+
+
+.start-btn:hover {
+
+    transform: scale(1.08);
+}
+
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.container {
+
+    width: 100%;
+
+    max-width: 460px;
+
+    margin: auto;
+
+    padding:
+        50px 18px 100px;
+
+    text-align: center;
+}
+
+
+/* =========================
+   BADGE
+========================= */
+
+.badge {
+
+    display: inline-block;
+
+    padding: 8px 16px;
+
+    border-radius: 30px;
+
+    color: #ffd0e8;
+
+    font-size: 13px;
+
+    background:
+        rgba(255,255,255,.09);
+
+    border:
+        1px solid
+        rgba(255,255,255,.18);
+
+    backdrop-filter: blur(10px);
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+.main-title {
+
+    font-size: 39px;
+
+    margin:
+        18px 0 5px;
+
+    line-height: 1.2;
+}
+
+
+.name {
+
+    color: #ff81c6;
+
+    text-shadow:
+        0 0 15px
+        rgba(255,80,180,.8);
+}
+
+
+/* =========================
+   PHOTO
+========================= */
+
+.photo-wrap {
+
+    width: 180px;
+
+    height: 180px;
+
+    margin:
+        28px auto;
+
+    padding: 6px;
+
+    border-radius: 50%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ffffff,
+            #ff65b2,
+            #ff1744,
+            #ffd6eb
+        );
+
+    animation:
+        photoGlow 2s infinite alternate;
+}
+
+
+.photo {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border:
+        4px solid #19071e;
+}
+
+
+@keyframes photoGlow {
+
+    from {
+
+        box-shadow:
+            0 0 12px
+            rgba(255,80,170,.4);
+    }
+
+    to {
+
+        box-shadow:
+            0 0 45px
+            rgba(255,80,170,.9);
+    }
+}
+
+
+/* =========================
+   GLASS CARD
+========================= */
+
+.card {
+
+    margin-top: 25px;
+
+    padding: 24px 19px;
+
+    border-radius: 25px;
+
+    background:
+        rgba(255,255,255,.075);
+
+    border:
+        1px solid
+        rgba(255,255,255,.15);
+
+    backdrop-filter: blur(14px);
+
+    box-shadow:
+        0 20px 60px
+        rgba(0,0,0,.25);
+}
+
+
+.card p {
+
+    line-height: 1.9;
+
+    color: #ffe7f5;
+
+    font-size: 16px;
+}
+
+
+.quote {
+
+    margin-top: 15px;
+
+    color: #ff9dd2;
+
+    font-size: 19px;
+
+    line-height: 1.8;
+
+    font-style: italic;
+}
+
+
+/* =========================
+   GIFT
+========================= */
+
+.gift-area {
+
+    margin:
+        35px 0 20px;
+}
+
+
+.gift {
+
+    display: inline-block;
+
+    font-size: 90px;
+
+    cursor: pointer;
+
+    animation:
+        giftBounce 1.5s infinite;
+
+    filter:
+        drop-shadow(
+            0 10px 20px
+            rgba(255,0,100,.4)
+        );
+
+    transition: .5s;
+}
+
+
+.gift:hover {
+
+    transform: scale(1.15);
+}
+
+
+@keyframes giftBounce {
+
+    0%,100% {
+
+        transform:
+            translateY(0)
+            rotate(0deg);
+    }
+
+    50% {
+
+        transform:
+            translateY(-12px)
+            rotate(4deg);
+    }
+}
+
+
+.tap-text {
+
+    margin-top: 8px;
+
+    color: #ffc9e4;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   LETTER
+========================= */
+
+.letter {
+
+    display: none;
+
+    text-align: left;
+
+    animation:
+        letterAppear .9s ease;
+}
+
+
+@keyframes letterAppear {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateY(25px);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+}
+
+
+.letter-title {
+
+    text-align: center;
+
+    font-size: 23px;
+
+    color: #ff91ca;
+
+    margin-bottom: 15px;
+}
+
+
+#typedText {
+
+    white-space: pre-line;
+
+    color: #ffe8f5;
+
+    line-height: 2;
+
+    font-size: 16px;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.love-btn {
+
+    display: block;
+
+    margin:
+        22px auto 0;
+
+    padding:
+        14px 24px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    background:
+        linear-gradient(
+            135deg,
+            #ff4081,
+            #d50057
+        );
+
+    box-shadow:
+        0 10px 30px
+        rgba(255,40,120,.35);
+
+    transition: .3s;
+}
+
+
+.love-btn:hover {
+
+    transform:
+        scale(1.06);
+}
+
+
+/* =========================
+   FINAL SECTION
+========================= */
+
+.final {
+
+    display: none;
+
+    animation:
+        finalAppear 1s ease;
+}
+
+
+@keyframes finalAppear {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            scale(.9);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            scale(1);
+    }
+}
+
+
+.final h2 {
+
+    color: #ff8ecb;
+
+    font-size: 25px;
+}
+
+
+.final-poem {
+
+    color: #ffe5f3;
+
+    font-size: 18px;
+
+    line-height: 2.1;
+}
+
+
+.signature {
+
+    margin-top: 25px;
+
+    color: #ff91ca;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   FLOATING OBJECTS
+========================= */
+
+.float {
+
+    position: fixed;
+
+    bottom: -60px;
+
+    pointer-events: none;
+
+    z-index: 1;
+
+    animation:
+        floatUp linear forwards;
+}
+
+
+@keyframes floatUp {
+
+    0% {
+
+        transform:
+            translateY(0)
+            scale(.7)
+            rotate(0deg);
+
+        opacity: 0;
+    }
+
+    15% {
+
+        opacity: 1;
+    }
+
+    100% {
+
+        transform:
+            translateY(-115vh)
+            scale(1.3)
+            rotate(25deg);
+
+        opacity: 0;
+    }
+}
+
+
+/* =========================
+   FIREWORKS
+========================= */
+
+.firework {
+
+    position: fixed;
+
+    pointer-events: none;
+
+    z-index: 10000;
+
+    font-size: 25px;
+
+    animation:
+        explode 1.5s ease-out forwards;
+}
+
+
+@keyframes explode {
+
+    0% {
+
+        transform:
+            scale(.1)
+            rotate(0deg);
+
+        opacity: 1;
+    }
+
+    100% {
+
+        transform:
+            scale(4)
+            rotate(180deg);
+
+        opacity: 0;
+    }
+}
+
+
+/* =========================
+   MUSIC BUTTON
+========================= */
+
+.music-btn {
+
+    position: fixed;
+
+    right: 15px;
+
+    bottom: 15px;
+
+    z-index: 5000;
+
+    width: 50px;
+
+    height: 50px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    color: white;
+
+    font-size: 21px;
+
+    cursor: pointer;
+
+    background:
+        rgba(255,70,150,.85);
+
+    box-shadow:
+        0 5px 20px
+        rgba(255,50,140,.4);
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:380px) {
+
+    .main-title {
+
+        font-size: 32px;
+    }
+
+    .photo-wrap {
+
+        width: 155px;
+
+        height: 155px;
+    }
+
+    .gift {
+
+        font-size: 75px;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     INTRO
+========================= -->
+
+<div id="intro">
+
+    <div class="intro-gift">
+        🎁
+    </div>
+
+    <h1>
+        A Little Birthday Surprise
+        For Madam Ji ❤️
+    </h1>
+
+    <p>
+        Popy, this little website contains
+        something from my heart...
+    </p>
+
+    <button
+        class="start-btn"
+        onclick="startSurprise()">
+
+        Open My Surprise 💖
+
+    </button>
+
+</div>
+
+
+
+<!-- =========================
+     MAIN
+========================= -->
+
+<div class="container">
+
+
+    <div class="badge">
+
+        ✨ Made With Love For Madam Ji ✨
+
+    </div>
+
+
+    <h1 class="main-title">
+
+        Happy Birthday
+
+        <span class="name">
+            Popy
+        </span>
+
+        🎂❤️
+
+    </h1>
+
+
+
+    <!-- PHOTO -->
+
+    <div class="photo-wrap">
+
+        <img
+            src="popy.jpg"
+            class="photo"
+            alt="Madam Ji">
+
+    </div>
+
+
+
+    <!-- FIRST MESSAGE -->
+
+    <div class="card">
+
+        <p>
+
+            আজকের দিনটা শুধু তোমার জন্মদিন নয়...
+
+            <br><br>
+
+            আমার কাছে আজকের দিনটা সেই বিশেষ দিন,
+            যেদিন পৃথিবী একজন অসাধারণ মানুষকে
+            পেয়েছিল।
+
+            ❤️
+
+        </p>
+
+
+        <div class="quote">
+
+            "তুমি আছো বলেই আমার পৃথিবীটা
+            একটু বেশি সুন্দর,
+            একটু বেশি রঙিন,
+            আর অনেক বেশি আপন।"
+
+        </div>
+
+    </div>
+
+
+
+    <!-- GIFT -->
+
+    <div class="gift-area">
+
+        <div
+            class="gift"
+            onclick="openGift()">
+
+            🎁
+
+        </div>
+
+        <div class="tap-text">
+
+            Madam Ji,
+            gift খুলতে এখানে চাপ দাও 💝
+
+        </div>
+
+    </div>
+
+
+
+    <!-- LETTER -->
+
+    <div
+        class="card letter"
+        id="letter">
+
+
+        <div class="letter-title">
+
+            💌 একটা চিঠি শুধু তোমার জন্য
+
+        </div>
+
+
+        <p id="typedText"></p>
+
+
+        <button
+            class="love-btn"
+            onclick="celebrate()">
+
+            তোমার জন্য আরও একটা Surprise ❤️
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- FINAL -->
+
+    <div
+        class="card final"
+        id="final">
+
+
+        <h2>
+
+            Happy Birthday,
+            My Madam Ji 👑❤️
+
+        </h2>
+
+
+        <div class="final-poem">
+
+            তুমি শুধু আমার গল্পের একটা চরিত্র নও,
+
+            <br>
+
+            তুমি আমার গল্পের
+            সবচেয়ে সুন্দর অধ্যায়। 🌸
+
+            <br><br>
+
+            তোমার হাসিতে আমার সকাল,
+
+            <br>
+
+            তোমার কথায় আমার শান্তি,
+
+            <br>
+
+            আর তোমার উপস্থিতিতে
+            আমার পৃথিবীটা পূর্ণ হয়ে যায়। ❤️
+
+            <br><br>
+
+            আমি জানি না ভবিষ্যৎ
+            আমাদের জন্য কী লিখে রেখেছে,
+
+            <br>
+
+            কিন্তু আমি চাই সেই ভবিষ্যতের
+            প্রতিটা সুন্দর মুহূর্তে
+            তুমি থাকো।
+
+            <br><br>
+
+            <i>
+
+            "হাজার মানুষের ভিড়ে,
+            আমার চোখ শুধু তোমাকেই খোঁজে।
+
+            <br>
+
+            হাজার কথার মাঝে,
+            আমার মন শুধু তোমার কথাই শোনে।"
+
+            </i>
+
+            <br><br>
+
+            তোমার হাসি যেন কখনো হারিয়ে না যায়।
+
+            <br>
+
+            তোমার স্বপ্নগুলো যেন
+            একে একে সত্যি হয়।
+
+            <br>
+
+            আর তোমার জীবনের প্রতিটা জন্মদিন
+            যেন আগেরটার থেকেও সুন্দর হয়। 🎂✨
+
+        </div>
+
+
+        <div class="signature">
+
+            তোমার,
+
+            <br>
+
+            <b>
+                Swagat ❤️
+            </b>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- =========================
+     MUSIC
+========================= -->
+
+<audio
+    id="music"
+    loop>
+
+    <source
+        src="birthday.mp3"
+        type="audio/mpeg">
+
+</audio>
+
+
+<button
+    class="music-btn"
+    onclick="toggleMusic()">
+
+    🎵
+
+</button>
+
+
+
+<script>
+
+/* ===================================
+   START SURPRISE
+=================================== */
+
+function startSurprise() {
+
+    const intro =
+        document.getElementById("intro");
+
+    intro.style.opacity = "0";
+
+
+    setTimeout(() => {
+
+        intro.style.display = "none";
+
+    }, 1300);
+
+
+    const music =
+        document.getElementById("music");
+
+
+    music.volume = 0.55;
+
+
+    music.play().catch(() => {
+
+        console.log(
+            "Music will start after interaction."
+        );
+
+    });
+
+
+    startFloatingObjects();
+
+}
+
+
+
+/* ===================================
+   OPEN GIFT
+=================================== */
+
+function openGift() {
+
+    const gift =
+        document.querySelector(".gift");
+
+
+    gift.innerHTML = "💝";
+
+
+    gift.style.transform =
+        "scale(1.2)";
+
+
+    setTimeout(() => {
+
+        document.getElementById(
+            "letter"
+        ).style.display = "block";
+
+
+        typeLetter();
+
+
+        setTimeout(() => {
+
+            document.getElementById(
+                "letter"
+            ).scrollIntoView({
+                behavior: "smooth"
+            });
+
+        }, 200);
+
+    }, 600);
+
+}
+
+
+
+/* ===================================
+   BIRTHDAY LETTER
+=================================== */
+
+const letterText = `
+
+পপি,
+
+প্রথমেই তোমাকে জন্মদিনের
+অনেক অনেক শুভেচ্ছা। ❤️
+
+আজ তোমার জন্মদিন,
+কিন্তু সত্যি বলতে...
+
+এই দিনটার জন্য কৃতজ্ঞ হওয়া উচিত আমার।
+
+কারণ এই পৃথিবীতে তুমি এসেছিলে বলেই
+আমি এমন একজন মানুষকে চিনতে পেরেছি,
+
+যার একটা হাসি আমার পুরো দিনটা
+বদলে দিতে পারে।
+
+Madam Ji,
+
+তুমি হয়তো জানো না,
+কিন্তু তোমার ছোট ছোট কথাগুলোও
+আমার কাছে অনেক বড় ব্যাপার।
+
+তোমার সাথে কথা বলা,
+তোমার হাসি দেখা,
+তোমার রাগ ভাঙানোর চেষ্টা করা—
+
+এসবই আমার জীবনের
+প্রিয় মুহূর্তগুলোর মধ্যে পড়ে।
+
+আমি তোমাকে শুধু ভালোবাসতে চাই না,
+
+আমি তোমাকে বুঝতে চাই।
+
+তোমাকে সম্মান করতে চাই।
+
+তোমার খারাপ সময়ে পাশে থাকতে চাই।
+
+আর তোমার ভালো সময়গুলোতে
+তোমার সাথে হাসতে চাই।
+
+তোমার জন্মদিনে আমার একটাই চাওয়া—
+
+তুমি সবসময় হাসো।
+
+তোমার স্বপ্নগুলো পূরণ হোক।
+
+তোমার জীবনে যত সুখ আসুক,
+তার মধ্যে যদি আমার জন্য
+একটু জায়গা থাকে...
+
+তাহলেই আমি নিজেকে
+ভাগ্যবান মনে করব।
+
+শুভ জন্মদিন,
+আমার Madam Ji। 🎂❤️
+
+তুমি আমার কাছে সত্যিই খুব বিশেষ।
+
+— তোমার Swagat ❤️
+
+`;
+
+
+
+let letterIndex = 0;
+
+let typingStarted = false;
+
+
+function typeLetter() {
+
+    if (typingStarted)
+        return;
+
+
+    typingStarted = true;
+
+
+    const textElement =
+        document.getElementById(
+            "typedText"
+        );
+
+
+    function type() {
+
+        if (
+            letterIndex <
+            letterText.length
+        ) {
+
+            textElement.textContent +=
+                letterText.charAt(
+                    letterIndex
+                );
+
+
+            letterIndex++;
+
+
+            setTimeout(
+                type,
+                28
+            );
+
+        }
+
+    }
+
+
+    type();
+
+}
+
+
+
+/* ===================================
+   FIREWORKS
+=================================== */
+
+function celebrate() {
+
+    document.getElementById(
+        "final"
+    ).style.display = "block";
+
+
+    const emojis = [
+        "🎆",
+        "✨",
+        "💖",
+        "🎉",
+        "❤️",
+        "🌟",
+        "💕"
+    ];
+
+
+    for (
+        let i = 0;
+        i < 60;
+        i++
+    ) {
+
+        setTimeout(() => {
+
+            const firework =
+                document.createElement(
+                    "div"
+                );
+
+
+            firework.className =
+                "firework";
+
+
+            firework.innerHTML =
+                emojis[
+                    Math.floor(
+                        Math.random() *
+                        emojis.length
+                    )
+                ];
+
+
+            firework.style.left =
+                Math.random() *
+                100 +
+                "vw";
+
+
+            firework.style.top =
+                Math.random() *
+                90 +
+                "vh";
+
+
+            document.body.appendChild(
+                firework
+            );
+
+
+            setTimeout(() => {
+
+                firework.remove();
+
+            }, 1500);
+
+
+        }, i * 70);
+
+    }
+
+
+    document.getElementById(
+        "final"
+    ).scrollIntoView({
+        behavior: "smooth"
+    });
+
+}
+
+
+
+/* ===================================
+   FLOATING HEARTS / ROSES / BALLOONS
+=================================== */
+
+function createFloating() {
+
+    const symbols = [
+
+        "❤️",
+        "💖",
+        "💕",
+        "💗",
+        "🌹",
+        "🎈",
+        "✨",
+        "🎂",
+        "💝"
+
+    ];
+
+
+    const element =
+        document.createElement(
+            "div"
+        );
+
+
+    element.className =
+        "float";
+
+
+    element.innerHTML =
+        symbols[
+            Math.floor(
+                Math.random() *
+                symbols.length
+            )
+        ];
+
+
+    element.style.left =
+        Math.random() *
+        100 +
+        "vw";
+
+
+    element.style.fontSize =
+        18 +
+        Math.random() *
+        25 +
+        "px";
+
+
+    const duration =
+        5 +
+        Math.random() *
+        5;
+
+
+    element.style.animationDuration =
+        duration +
+        "s";
+
+
+    document.body.appendChild(
+        element
+    );
+
+
+    setTimeout(() => {
+
+        element.remove();
+
+    }, duration * 1000);
+
+}
+
+
+function startFloatingObjects() {
+
+    setInterval(
+        createFloating,
+        350
+    );
+
+}
+
+
+
+/* ===================================
+   MUSIC
+=================================== */
+
+function toggleMusic() {
+
+    const music =
+        document.getElementById(
+            "music"
+        );
+
+
+    const button =
+        document.querySelector(
+            ".music-btn"
+        );
+
+
+    if (music.paused) {
+
+        music.play();
+
+        button.innerHTML =
+            "🎵";
+
+    } else {
+
+        music.pause();
+
+        button.innerHTML =
+            "🔇";
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
